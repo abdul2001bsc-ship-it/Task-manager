@@ -1,71 +1,69 @@
-# DevTask Flow
+# DevTask Manager
 
-**DevTask Flow** is a simple and efficient personal task manager built with [Next.js](https://nextjs.org).  
-It helps individual developers organize, prioritize, and track their daily coding tasks easily.
+**DevTask Manager** is a lightweight, browser-based task management web app built with pure **HTML, CSS, and JavaScript**.  
+It allows developers and individuals to efficiently organize, categorize, and track tasks in a Kanban-style interface — without any frameworks or backend dependencies.
 
 ---
 
-## Getting Started
+## 🚀 Features
 
-### 1. Install dependencies
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
+- 🗂️ **Kanban Board Layout** — Tasks are organized into **To Do**, **In Progress**, and **Done** columns.  
+- 📝 **Add, Edit, and Manage Tasks** — Create detailed tasks with title, description, category, priority, and due date.  
+- 🎨 **Modern Glassmorphic UI** — Clean design with dark/light theme toggle.  
+- 🔍 **Search & Filter** — Filter tasks by category or priority and search by keyword.  
+- 💾 **LocalStorage Support** *(if implemented in `script.js`)* — Keeps your tasks saved even after page reloads.  
+- ⚡ **No Frameworks Needed** — Runs entirely in the browser using plain HTML, CSS, and JavaScript.  
+
+---
+
+## 🧩 File Structure
+
+```
+devtask-manager/
+│
+├── index.html        # Main interface (UI layout and structure)
+├── style.css         # Styling for dark/light themes and glassmorphism design
+├── script.js         # Handles logic for tasks, filters, and modal behavior
+└── README.md         # Project documentation
 ```
 
-### 2. Run the development server
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser to view your app.
+## 🛠️ How to Run
+
+1. **Download or clone** this repository:
+   ```bash
+   git clone https://github.com/your-username/devtask-manager.git
+   ```
+
+2. Open the project folder and double-click **`index.html`**.  
+   The app will open directly in your browser — no installation required.
 
 ---
 
-## Development Notes
+## 💡 Usage
 
-- Start editing the main page at:
-  ```
-  app/page.tsx
-  ```
-  Changes will auto-refresh as you save.
-
-- This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)  
-  to automatically load [Geist](https://vercel.com/font), a clean and modern font family from Vercel.
+- Click **“Add New Tasks”** to open the task creation modal.  
+- Fill in the title, description, category, priority, and due date.  
+- Use filters and the search bar to find tasks quickly.  
+- Move tasks between columns (if drag-and-drop or status updates are supported).  
+- Toggle between **light** and **dark** themes using the moon/sun icon.
 
 ---
 
-## Learn More
+## 📚 Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) — explore features and APIs  
-- [Learn Next.js](https://nextjs.org/learn) — interactive tutorial  
-- [Next.js GitHub Repository](https://github.com/vercel/next.js) — contribute or open issues
-
----
-
-## Deployment
-
-Deploy effortlessly using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme),  
-created by the team behind Next.js.
-
-Check out the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying) for more options.
+- **HTML5** — Structure and layout  
+- **CSS3** — Responsive and glassmorphic design  
+- **Font Awesome** — Icons for buttons and headers  
+- **Google Fonts (Poppins)** — Clean modern typography  
+- **JavaScript (ES6)** — Dynamic task management and interactivity  
 
 ---
 
-## License
+## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use and modify it with attribution.
+This project is licensed under the **MIT License** — you can freely use and modify it.
 
 ```
 MIT License
@@ -90,3 +88,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ by **Sazagames**
