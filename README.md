@@ -68,7 +68,7 @@ This project is licensed under the **MIT License** — you can freely use and mo
 ```
 MIT License
 
-Copyright (c) 2025 Sazagames
+Copyright (c) 2025 SAM
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -93,4 +93,4 @@ SOFTWARE.
 
 ## 👨‍💻 Author
 
-Developed with ❤️ by **Sazagames**
+Developed with ❤️ by **SAM**
